@@ -33,7 +33,7 @@ hide:
     <strong>🔍 Topic Reference</strong>
     <span>Already know what you need? Jump directly to any of 83 topics via the master scope map. Every note links to prerequisites and next steps.</span>
   </a>
-  <a class="tool-card" href="https://github.com/bhaskarjha-com/genai-notes#path-4-obsidian-vault">
+  <a class="tool-card" href="https://github.com/bhaskarjha-dev/genai-notes#path-4-obsidian-vault">
     <strong>📎 Obsidian Vault</strong>
     <span>Clone the repo and open it as an Obsidian vault. Pre-configured with graph colors, backlinks, and excluded folders. Works offline.</span>
   </a>
@@ -74,6 +74,6 @@ hide:
 <div style="background: var(--genai-card); border-radius: 1rem; padding: 1.5rem; text-align: center; border: 1px solid var(--genai-border); backdrop-filter: var(--genai-glass-blur);">
     <p style="margin:0; font-size: 0.95rem; color: var(--genai-ink-soft);">
         <em>All notes verified April 2026. CI-enforced quality gates: zero broken links, zero formatting violations, 100% template compliance.</em><br>
-        <a href="genai.html">Browse the Concept Map →</a> · <a href="https://github.com/bhaskarjha-com/genai-notes">View on GitHub →</a>
+        <a href="genai.html">Browse the Concept Map →</a> · <a href="https://github.com/bhaskarjha-dev/genai-notes">View on GitHub →</a>
     </p>
 </div>

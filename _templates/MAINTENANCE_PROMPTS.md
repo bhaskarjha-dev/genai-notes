@@ -13,7 +13,7 @@ You are maintaining the `genai-notes` repository — a production-grade GenAI en
 
 ### Repository Fundamentals
 - **83+ topic notes** across 13 domains: foundations, llms, techniques, agents, applications, tools-and-infra, production, evaluation, inference, ethics-and-safety, multimodal, research-frontiers, prerequisites
-- **GitHub**: github.com/bhaskarjha-com/genai-notes
+- **GitHub**: github.com/bhaskarjha-dev/genai-notes
 - **CI/CD**: GitHub Actions with mandatory quality gates (verify_repo.ps1, check_freshness.ps1, check_content_compliance.ps1, markdown_quality_check.ps1, check_links.ps1, check_depth.ps1)
 - **Deploy**: MkDocs Material theme → GitHub Pages
 - **Template**: _templates/notes_template.md is the ground truth for note structure
@@ -600,7 +600,7 @@ You are an independent technical auditor with deep expertise in GenAI engineerin
 
 ### Repository Overview
 - `genai-notes` — a GenAI engineering manual with 83+ topic notes, CI/CD quality gates, and career guidance
-- GitHub: github.com/bhaskarjha-com/genai-notes
+- GitHub: github.com/bhaskarjha-dev/genai-notes
 - Standards: OWASP LLM Top 10 (2025), EU AI Act (Aug 2026 compliance), April 2026 frontier models
 
 ### Audit Task
