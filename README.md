@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-blue)
 ![Notes](https://img.shields.io/badge/notes-83-brightgreen)
 
-📖 **[Browse the Docs Site →](https://bhaskarjha-dev.github.io/genai-notes/)**
+📖 **[Browse the Docs Site →](https://genai-notes.bhaskarjha.dev/)**
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## What This Is
 
-This repository is a public collection of structured GenAI study notes in plain markdown, published as a full-featured docs site at **[bhaskarjha-dev.github.io/genai-notes](https://bhaskarjha-dev.github.io/genai-notes/)**. Each topic is designed as a self-contained 30–60 minute study session that combines theory, code, terminology, comparisons, gotchas, and interview angles.
+This repository is a public collection of structured GenAI study notes in plain markdown, published as a full-featured docs site at **[genai-notes.bhaskarjha.dev](https://genai-notes.bhaskarjha.dev/)**. Each topic is designed as a self-contained 30–60 minute study session that combines theory, code, terminology, comparisons, gotchas, and interview angles.
 
 The repo is organized by learning sequence rather than alphabetically. You can browse the docs site for the best reading experience, open the repo as an Obsidian vault for graph-based exploration, study linearly via the Learning Path, jump in by role, or use individual notes as a portable reference in GitHub or any markdown editor.
 
@@ -51,7 +51,7 @@ Then pick your path:
 
 | Path | Start Here | Best For |
 |------|-----------|----------|
-| **Docs site** | [bhaskarjha-dev.github.io/genai-notes](https://bhaskarjha-dev.github.io/genai-notes/) | Best reading experience — search, nav, dark mode |
+| **Docs site** | [genai-notes.bhaskarjha.dev](https://genai-notes.bhaskarjha.dev/) | Best reading experience — search, nav, dark mode |
 | **Linear study** | [LEARNING_PATH.md](LEARNING_PATH.md) | Systematic coverage, universal foundation + role tracks |
 | **Role-based study** | [career/roles/](career/roles/README.md) | Jump to your target role's curated learning path |
 | **Topic reference** | [genai.md](genai.md) | Browse the full scope map and dive into any topic |
