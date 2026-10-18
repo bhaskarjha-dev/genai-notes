@@ -3,7 +3,7 @@ site_description: Structured GenAI study notes from prerequisites to frontier re
 site_url: https://bhaskarjha-dev.github.io/genai-notes/
 repo_url: https://github.com/bhaskarjha-dev/genai-notes
 repo_name: bhaskarjha-dev/genai-notes
-edit_uri: edit/master/
+edit_uri: edit/main/
 docs_dir: docs
 site_dir: site
 use_directory_urls: false

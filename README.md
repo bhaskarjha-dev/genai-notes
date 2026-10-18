@@ -2,9 +2,9 @@
 
 > Comprehensive, structured study notes for Generative AI — from prerequisites to frontier research. **83 curriculum-ordered notes.** Career-mapped to 31 AI/ML roles. Research based Human & AI created, reviewed and updated.
 
-[![Repo Quality](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/lint.yml)
-[![Docs Site|154](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/deploy.yml)
-[![Link Check](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/links.yml/badge.svg?branch=master)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/links.yml)
+[![Repo Quality](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/lint.yml)
+[![Docs Site|154](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/deploy.yml)
+[![Link Check](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/bhaskarjha-dev/genai-notes/actions/workflows/links.yml)
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-blue)
 ![Notes](https://img.shields.io/badge/notes-83-brightgreen)
 
