@@ -5,12 +5,12 @@ tags: [multi-agent, agents, orchestration, coordination, genai-techniques]
 type: procedure
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "ai-agents.md"
 related: ["agentic-protocols.md", "agent-evaluation.md", "../applications/code-generation.md", "../production/ai-system-design.md"]
 source: "Multiple sources - see Sources"
 created: 2026-04-12
-updated: 2026-04-14
+updated: 2026-10-18
 ---
 
 # Multi-Agent Architectures

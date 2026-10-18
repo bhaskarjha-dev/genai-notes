@@ -5,7 +5,7 @@ tags: [inference, quantization, speculative-decoding, kv-cache, serving, perform
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: ../genai.md
 related:
   - ../llms/llms-overview.md
@@ -16,7 +16,7 @@ related:
   - ../production/cost-optimization.md
 source: Multiple papers and frameworks - see Sources
 created: 2026-03-18
-updated: 2026-04-15
+updated: 2026-10-18
 ---
 
 # Inference Optimization

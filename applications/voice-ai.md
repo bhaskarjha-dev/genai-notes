@@ -5,12 +5,12 @@ tags: [voice-ai, tts, stt, text-to-speech, speech-to-text, realtime-api, whisper
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../multimodal/multimodal-ai.md", "../agents/ai-agents.md", "../agents/agentic-protocols.md", "conversational-ai.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # Voice AI & Speech
@@ -39,7 +39,7 @@ updated: 2026-04-12
 
 Covers the voice AI stack for GenAI applications. For the broader dialogue-systems view, see [Conversational AI & Dialogue Systems](./conversational-ai.md). For general multimodal AI (images, video), see [Multimodal Ai](../multimodal/multimodal-ai.md).
 
-Last verified for provider and product examples in this note: 2026-04.
+Last verified for provider and product examples in this note: 2026-10.
 
 ---
 

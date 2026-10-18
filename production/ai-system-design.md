@@ -5,12 +5,12 @@ tags: [system-design, ai-architecture, genai, production, llmops]
 type: reference
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "llmops.md"
 related: ["../techniques/rag.md", "../agents/ai-agents.md", "../evaluation/evaluation-and-benchmarks.md"]
 source: "Multiple sources - see Sources"
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # AI System Design for GenAI Applications

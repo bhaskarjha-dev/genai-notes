@@ -5,12 +5,12 @@ tags: [rlhf, dpo, ppo, grpo, alignment, reward-model, preference-optimization, g
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../ethics-and-safety/ethics-safety-alignment.md", "../llms/llms-overview.md", "../llms/reasoning-models.md", "fine-tuning.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Reinforcement Learning for LLM Alignment

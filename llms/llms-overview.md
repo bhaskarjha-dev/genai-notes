@@ -5,12 +5,12 @@ tags: [llm, gpt, claude, gemini, llama, language-models, genai]
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../foundations/transformers.md", "../techniques/rag.md", "../techniques/fine-tuning.md", "hallucination-detection.md"]
 source: "Multiple - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # Large Language Models (LLMs)
@@ -43,7 +43,7 @@ This document covers LLMs as a category. For specific model families, see sub-do
 - LLM market: $7.77B (2025) → projected $10.57B (2026)
 - Anthropic surpassed OpenAI in enterprise usage in 2025
 
-Last verified for market and provider-snapshot statements: 2026-04.
+Last verified for market and provider-snapshot statements: 2026-10.
 
 ### Prerequisites
 

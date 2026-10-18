@@ -5,12 +5,12 @@ tags: [distillation, compression, pruning, teacher-student, efficiency, genai]
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["fine-tuning.md", "../inference/inference-optimization.md", "../foundations/modern-architectures.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Knowledge Distillation & Model Compression

@@ -5,12 +5,12 @@ tags: [moe, mixture-of-experts, gqa, rope, flash-attention, architecture, genai]
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["transformers.md", "attention-mechanism.md", "../llms/llms-overview.md", "../inference/inference-optimization.md"]
 source: "Multiple papers — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Modern LLM Architectures

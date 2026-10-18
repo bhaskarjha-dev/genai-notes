@@ -5,12 +5,12 @@ tags: [synthetic-data, data-engineering, self-instruct, data-curation, training-
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["fine-tuning.md", "distillation-and-compression.md", "../llms/llms-overview.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Synthetic Data & Data Engineering for LLMs

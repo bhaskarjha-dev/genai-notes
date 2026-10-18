@@ -5,12 +5,12 @@ tags: [hallucination, groundedness, factuality, reliability, llm]
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "llms-overview.md"
 related: ["../techniques/rag.md", "../evaluation/evaluation-and-benchmarks.md", "../ethics-and-safety/ethics-safety-alignment.md"]
 source: "Multiple sources - see Sources"
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # Hallucination Detection & Mitigation

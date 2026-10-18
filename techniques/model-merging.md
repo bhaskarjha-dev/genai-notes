@@ -5,12 +5,12 @@ tags: [model-merging, ties, dare, slerp, mergekit, fine-tuning, open-weight, gen
 type: procedure
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["fine-tuning.md", "advanced-fine-tuning.md", "distillation-and-compression.md", "../inference/inference-optimization.md"]
 source: "Multiple — see Sources"
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-10-18
 ---
 
 # Model Merging

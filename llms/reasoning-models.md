@@ -5,12 +5,12 @@ tags: [reasoning, o1, o3, chain-of-thought, test-time-compute, deepseek-r1, thin
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["llms-overview.md", "../foundations/transformers.md", "../techniques/prompt-engineering.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Reasoning Models & Test-Time Compute
@@ -37,7 +37,7 @@ updated: 2026-04-11
 
 Covers: Reasoning model architectures, test-time compute scaling, process reward models, and when to use reasoning vs standard models. For basic prompting techniques (zero-shot CoT), see [Prompt Engineering](../techniques/prompt-engineering.md). For standard LLM overview, see [Llms Overview](./llms-overview.md).
 
-Last verified for model-lineup and timeline references: 2026-04.
+Last verified for model-lineup and timeline references: 2026-10.
 
 ### Significance
 

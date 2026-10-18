@@ -5,12 +5,12 @@ tags: [multimodal, vision-language, text-to-video, text-to-audio, sora, veo, gen
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../llms/llms-overview.md", "../multimodal/diffusion-models.md", "../foundations/transformers.md", "computer-vision-fundamentals.md"]
 source: "Multiple - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # Multimodal AI
@@ -37,7 +37,7 @@ updated: 2026-04-12
 
 Covers: Vision-language models, text-to-video, text-to-audio, and cross-modal understanding. For image generation specifically, see [Diffusion Models](../multimodal/diffusion-models.md). For the visual-understanding side of multimodal work, see [Computer Vision Fundamentals for AI Builders](./computer-vision-fundamentals.md). For the text-only LLM perspective, see [Llms Overview](../llms/llms-overview.md).
 
-Last verified for frontier-model and product examples in this note: 2026-04.
+Last verified for frontier-model and product examples in this note: 2026-10.
 
 ### Significance
 

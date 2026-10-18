@@ -5,12 +5,12 @@ tags: [ethics, safety, alignment, rlhf, hallucination, bias, responsible-ai, gen
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../llms/llms-overview.md", "../evaluation/evaluation-and-benchmarks.md", "../llms/hallucination-detection.md", "ai-regulation.md", "adversarial-ml-and-ai-security.md", "owasp-llm-top-10.md"]
 source: "Multiple - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # Ethics, Safety & Alignment

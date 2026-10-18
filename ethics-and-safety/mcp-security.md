@@ -4,12 +4,12 @@ tags: [mcp, security, tool-poisoning, supply-chain, agentic-security, adversaria
 type: reference
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../agents/agentic-protocols.md"
 related: ["owasp-llm-top-10.md", "prompt-injection-deep-dive.md", "adversarial-ml-and-ai-security.md", "../agents/agentic-protocols.md"]
 source: "Multiple — see Sources"
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-10-18
 ---
 
 # MCP Security & Tool Trust

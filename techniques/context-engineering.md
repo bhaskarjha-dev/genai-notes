@@ -5,12 +5,12 @@ tags: [context-window, long-context, context-caching, prompt-caching, rag-vs-con
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["rag.md", "prompt-engineering.md", "../llms/llms-overview.md", "../inference/inference-optimization.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Context Engineering & Long Context

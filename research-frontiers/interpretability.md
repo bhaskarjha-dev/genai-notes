@@ -5,12 +5,12 @@ tags: [interpretability, mech-interp, superposition, sparse-autoencoders, circui
 type: concept
 difficulty: expert
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../ethics-and-safety/ethics-safety-alignment.md", "../foundations/transformers.md", "../llms/llms-overview.md"]
 source: "Anthropic, OpenAI — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Mechanistic Interpretability

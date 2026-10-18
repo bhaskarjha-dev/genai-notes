@@ -5,12 +5,12 @@ tags: [llm-comparison, gpt-5, gemini-3, claude-4, llama-4, model-selection, open
 type: reference
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["llms-overview.md", "reasoning-models.md", "../foundations/modern-architectures.md"]
 source: "Web research — April 2026"
 created: 2026-03-22
-updated: 2026-04-15
+updated: 2026-10-18
 ---
 
 # LLM Landscape & Model Selection (April 2026)
@@ -37,7 +37,7 @@ This note is a time-sensitive snapshot of the frontier and near-frontier LLM mar
 
 Covers major providers, open vs closed trade-offs, and practical selection heuristics. Verify the latest model lineup with vendor release notes before using this note for a current purchasing or architecture decision.
 
-Last verified for the March 2026 market snapshot: 2026-04.
+Last verified for the March 2026 market snapshot: 2026-10.
 
 ### Significance
 

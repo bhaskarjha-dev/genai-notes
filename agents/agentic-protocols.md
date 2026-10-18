@@ -5,12 +5,12 @@ tags: [mcp, a2a, adk, agent-protocols, langraph, crewai, autogen, agentic-infra,
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["ai-agents.md", "../techniques/function-calling-and-structured-output.md", "../tools-and-infra/tools-overview.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Agentic Protocols & Frameworks

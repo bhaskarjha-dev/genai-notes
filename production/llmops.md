@@ -5,12 +5,12 @@ tags: [llmops, production, monitoring, observability, deployment, ci-cd, genai]
 type: procedure
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../tools-and-infra/tools-overview.md", "../evaluation/evaluation-and-benchmarks.md", "../ethics-and-safety/ethics-safety-alignment.md", "../inference/inference-optimization.md", "ai-system-design.md", "docker-and-kubernetes.md", "model-serving.md", "monitoring-observability.md", "cicd-for-ml.md", "cost-optimization.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # LLMOps & Production Deployment

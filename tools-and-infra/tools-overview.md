@@ -5,12 +5,12 @@ tags: [tools, infrastructure, langchain, llamaindex, vector-db, serving, genai]
 type: reference
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../techniques/rag.md", "../agents/ai-agents.md", "../llms/llms-overview.md", "cloud-ml-services.md", "distributed-systems-for-ai.md", "ml-experiment-and-data-management.md"]
 source: "Multiple - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # GenAI Tools & Infrastructure

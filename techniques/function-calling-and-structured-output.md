@@ -5,12 +5,12 @@ tags: [function-calling, tool-use, structured-output, json-mode, mcp, grounding,
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../agents/ai-agents.md", "../llms/llms-overview.md", "rag.md", "prompt-engineering.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Function Calling, Structured Output & Tool Use

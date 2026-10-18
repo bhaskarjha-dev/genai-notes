@@ -5,12 +5,12 @@ tags: [agents, agentic-ai, tool-use, function-calling, autonomy, genai-technique
 type: concept
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../techniques/rag.md", "../llms/llms-overview.md", "../techniques/prompt-engineering.md", "multi-agent-architectures.md", "agent-evaluation.md"]
 source: "Multiple - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # AI Agents

@@ -5,12 +5,12 @@ tags: [continual-learning, catastrophic-forgetting, lifelong-learning, knowledge
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["fine-tuning.md", "../llms/llms-overview.md", "../ethics-and-safety/ethics-safety-alignment.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Continual Learning & Lifelong AI

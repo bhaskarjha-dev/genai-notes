@@ -5,12 +5,12 @@ tags: [evaluation, benchmarks, mmlu, humaneval, ragas, testing, genai]
 type: reference
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../llms/llms-overview.md", "../techniques/rag.md", "../agents/agent-evaluation.md", "../llms/hallucination-detection.md", "llm-evaluation-deep-dive.md", "system-design-for-ai-interviews.md"]
 source: "Multiple benchmarks and frameworks - see Sources"
 created: 2026-03-18
-updated: 2026-04-12
+updated: 2026-10-18
 ---
 
 # LLM Evaluation & Benchmarks

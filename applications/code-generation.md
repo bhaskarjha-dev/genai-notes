@@ -5,12 +5,12 @@ tags: [code-generation, copilot, cursor, antigravity, gemini-cli, claude-code, w
 type: procedure
 difficulty: intermediate
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../agents/ai-agents.md", "../agents/agentic-protocols.md", "../llms/llms-overview.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-14
+updated: 2026-10-18
 ---
 
 # Code Generation & AI-Assisted Development
@@ -37,7 +37,7 @@ AI-assisted development encompasses tools ranging from inline code completion to
 
 Covers the major tools, architectures, and paradigms for AI coding. For the underlying LLM technology, see [Llms Overview](../llms/llms-overview.md). For agent patterns, see [Ai Agents](../agents/ai-agents.md). For agentic protocols (MCP), see [Agentic Protocols](../agents/agentic-protocols.md).
 
-Last verified for product-landscape references in this note: 2026-04.
+Last verified for product-landscape references in this note: 2026-10.
 
 ### The Evolution (2021-2026)
 

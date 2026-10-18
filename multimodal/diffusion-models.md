@@ -5,12 +5,12 @@ tags: [diffusion, image-generation, stable-diffusion, dall-e, genai]
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["../foundations/transformers.md", "../llms/llms-overview.md"]
 source: "Ho et al., 2020 (DDPM) + latest developments"
 created: 2026-03-18
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Diffusion Models

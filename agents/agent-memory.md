@@ -5,12 +5,12 @@ tags: [agents, memory, context, state, conversation, rag, production]
 type: procedure
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "ai-agents.md"
 related: ["ai-agents.md", "multi-agent-architectures.md", "../techniques/rag.md", "../techniques/context-engineering.md"]
 source: "Multiple — see Sources"
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-10-18
 ---
 
 # Agent Memory Systems

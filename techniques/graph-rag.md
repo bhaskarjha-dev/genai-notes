@@ -5,12 +5,12 @@ tags: [graph-rag, knowledge-graph, multi-hop-reasoning, graphrag, agentic-rag, g
 type: concept
 difficulty: advanced
 status: published
-last_verified: 2026-04
+last_verified: 2026-10
 parent: "../genai.md"
 related: ["rag.md", "../agents/ai-agents.md", "context-engineering.md", "../tools-and-infra/vector-databases.md"]
 source: "Multiple — see Sources"
 created: 2026-03-22
-updated: 2026-04-11
+updated: 2026-10-18
 ---
 
 # Graph RAG & Advanced Retrieval
