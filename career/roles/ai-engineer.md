@@ -45,7 +45,7 @@ updated: 2026-04-14
 
 ### Phase 1: Prerequisites & Foundation
 
-Complete [Part 1 of the Learning Path](../../LEARNING_PATH.md#part-1-universal-foundation-60-hours) first. All 20 foundation notes apply to this role.
+Complete [Part 1 of the Learning Path](../../LEARNING_PATH.md#part-1-universal-foundation-70-hours) first. All 23 foundation notes apply to this role.
 
 ### Phase 2: Core Knowledge
 

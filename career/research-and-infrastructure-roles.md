@@ -34,7 +34,7 @@ updated: 2026-04-12
 
 ### Phase 1: Foundation
 
-Complete [Part 1 of the Learning Path](../LEARNING_PATH.md#part-1-universal-foundation-60-hours) first, then commit to the deeper systems and research path.
+Complete [Part 1 of the Learning Path](../LEARNING_PATH.md#part-1-universal-foundation-70-hours) first, then commit to the deeper systems and research path.
 
 ### Phase 2: Shared Core
 

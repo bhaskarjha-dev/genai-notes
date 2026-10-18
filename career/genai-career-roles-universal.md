@@ -5,7 +5,7 @@ type: reference
 difficulty: beginner
 status: published
 parent: "../genai.md"
-related: ["roles/ai-engineer.md", "roles/genai-engineer.md", "roles/llm-engineer.md", "roles/rag-engineer.md", "roles/agentic-ai-engineer.md", "roles/ml-engineer.md", "roles/mlops-engineer.md"]
+related: ["roles/ai-engineer.md", "roles/forward-deployed-engineer.md", "roles/evals-engineer.md", "roles/context-engineer.md", "roles/post-training-engineer.md", "roles/ai-coding-agent-engineer.md", "roles/genai-engineer.md", "roles/llm-engineer.md", "roles/rag-engineer.md", "roles/agentic-ai-engineer.md", "roles/ml-engineer.md", "roles/mlops-engineer.md"]
 source: "LinkedIn, Indeed, Glassdoor, Levels.fyi, web research — March 2026"
 created: 2026-03-23
 updated: 2026-04-12
@@ -13,15 +13,20 @@ updated: 2026-04-12
 
 # GenAI Career Roles — Complete Reference (2026)
 
-> ✨ **"AI Engineer"** was LinkedIn's #1 fastest-growing job title in 2026. This document covers **31 roles** across a **6-layer AI stack** — from Application (easiest entry) to Infrastructure & Hardware (highest pay). Salary data for both **US** and **India** markets.
+> ✨ **"AI Engineer"** was LinkedIn's #1 fastest-growing job title in 2026. This document covers **54 roles** across a **6-layer AI stack** — from Application (easiest entry) to Infrastructure & Hardware (highest pay). Salary data for both **US** and **India** markets.
 >
-> **Note on "AI/ML Developer"**: This is NOT a distinct job role. It's used interchangeably with "AI Engineer" or "ML Engineer" in job postings. Read the JD — it maps to one of the 31 roles below.
+> **Note on "AI/ML Developer"**: This is NOT a distinct job role. It's used interchangeably with "AI Engineer" or "ML Engineer" in job postings. Read the JD — it maps to one of the roles below.
 >
-> **Last researched**: 2026-03. Treat compensation and hiring examples as a market snapshot, not a permanent truth.
+> **Last researched**: 2026-04. Treat compensation and hiring examples as a market snapshot, not a permanent truth.
 
 ## Dedicated Role Guides
 
 - [AI Engineer](./roles/ai-engineer.md)
+- [Forward Deployed AI Engineer](./roles/forward-deployed-engineer.md)
+- [AI Evals & Model Quality Engineer](./roles/evals-engineer.md)
+- [Context Engineer](./roles/context-engineer.md)
+- [Post-Training & Alignment Engineer](./roles/post-training-engineer.md)
+- [AI Coding Agent / SWE Agent Engineer](./roles/ai-coding-agent-engineer.md)
 - [Generative AI Engineer](./roles/genai-engineer.md)
 - [LLM Engineer](./roles/llm-engineer.md)
 - [RAG Engineer](./roles/rag-engineer.md)
@@ -57,7 +62,7 @@ updated: 2026-04-12
 8. [Job Search Keywords](#-job-search-keywords)
 9. [Frontier Lab Requirements](#-frontier-lab-requirements)
 10. [Target Companies by Tier](#-target-companies-by-tier)
-11. [Salary Table (All 31 Roles)](#-salary-table-all-31-roles)
+11. [Salary Table (Comprehensive)](#-salary-table-all-31-roles)
 12. [Certification Roadmap](#-certification-roadmap)
 13. [Portfolio Project Ideas](#-portfolio-project-ideas)
 14. [Sources](#-sources)
@@ -66,76 +71,106 @@ updated: 2026-04-12
 
 ## ★ The 6-Layer AI Stack { #-the-6-layer-ai-stack }
 
-> **Note**: This is a career-planning model adapted from industry frameworks (a16z, NVIDIA, Sequoia). Standard industry models use 4-5 layers; this 6-layer version provides finer granularity for mapping roles.
+> **Note**: This is a career-planning model adapted from industry frameworks (a16z, NVIDIA, Sequoia). Standard industry models use 4-5 layers; this 6-layer version provides finer granularity for mapping roles across the modern AI engineering lifecycle.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│  LAYER 6: APPLICATION                                               │
-│  Integrating AI into products, workflows, and user-facing features  │
-│  Roles: Full-Stack AI, AI Integration, AI Sales, AI Consultant,     │
-│         AI PM, Conversational AI, AI Tech Writer/DevRel             │
+│  LAYER 6: APPLICATION & FIELD DEPLOYMENT                            │
+│  Integrating AI into production, enterprise data & client workflows │
+│  Roles: Forward Deployed AI Eng (FDE), Full-Stack AI, SWE Agent     │
+│         Eng, AI Workflow Automation, AI PM, Conversational AI       │
 ├─────────────────────────────────────────────────────────────────────┤
-│  LAYER 5: ORCHESTRATION                                             │
-│  Building AI systems: agents, RAG pipelines, multi-model workflows  │
-│  Roles: AI Engineer, GenAI Engineer, Agentic AI, Prompt Engineer,   │
-│         AI Architect, AI DevTools Engineer                          │
+│  LAYER 5: ORCHESTRATION, CONTEXT & PROTOCOLS                        │
+│  Connecting models to tools: context memory, MCP protocols, agents  │
+│  Roles: Context Engineer, Agentic Protocol (MCP) Eng, Agentic AI,   │
+│         Cognitive Architect, AI Solutions Architect, DevTools Eng   │
 ├─────────────────────────────────────────────────────────────────────┤
-│  LAYER 4: FINE-TUNING & EVALUATION                                  │
-│  Adapting models: fine-tuning, evaluation, domain-specific training  │
-│  Roles: LLM Engineer, RAG Engineer, AI Data Eng, NLP Eng, CV Eng,  │
-│         Data Scientist, AI Safety/Red Team, AI Trainer              │
+│  LAYER 4: POST-TRAINING, ALIGNMENT & EVALUATION                     │
+│  Molding base models: SFT, RLHF/GRPO, synthetic data, evals testing │
+│  Roles: Post-Training & Alignment Eng, AI Evals Engineer, Synthetic │
+│         Data Eng, LLM Engineer, RAG Eng, Red Team, AI Data Eng      │
 ├─────────────────────────────────────────────────────────────────────┤
-│  LAYER 3: INFERENCE & SERVING                                       │
-│  Production: deployment, monitoring, optimization, cost control     │
-│  Roles: MLOps/LLMOps, ML Engineer, Inference Optimization Eng      │
+│  LAYER 3: INFERENCE & SERVING SYSTEMS                               │
+│  Runtime performance: test-time compute, P/D disaggregation, edge   │
+│  Roles: Test-Time Compute Eng, Disaggregated Serving Eng, MLOps,    │
+│         ML Engineer, On-Device / Edge SLM Engineer                  │
 ├─────────────────────────────────────────────────────────────────────┤
-│  LAYER 2: FOUNDATION MODEL                                          │
-│  Building models: pre-training, architecture design, research       │
-│  Roles: Foundation Model Eng, AI Research Scientist, Applied Sci    │
+│  LAYER 2: FOUNDATION MODEL & RESEARCH                               │
+│  Frontier architectures: pre-training, scaling laws, interpretability│
+│  Roles: Foundation Model Eng, AI Research Scientist, Applied Sci,   │
+│         Mechanistic Interpretability Researcher                     │
 ├─────────────────────────────────────────────────────────────────────┤
-│  LAYER 1: INFRASTRUCTURE & HARDWARE                                 │
-│  Compute: GPU clusters, compilers, kernels, distributed systems     │
-│  Roles: AI Infra/Platform Eng, AI Compiler/Kernel Eng               │
+│  LAYER 1: INFRASTRUCTURE, NETWORKING & HARDWARE                     │
+│  Compute fabric: 100k+ GPU clusters, InfiniBand/NCCL, Triton kernels │
+│  Roles: AI Datacenter/Interconnect Eng, AI Infra/Platform Engineer, │
+│         AI Compiler / Triton Kernel Engineer                        │
 └─────────────────────────────────────────────────────────────────────┘
+  CROSS-CUTTING DISCIPLINES:
+  • Strategy & Executive: Chief AI Officer (CAIO)
+  • Governance & Legal: AI Regulatory & Compliance Eng (EU AI Act), AI Product Counsel
+  • Specialized Frontiers: Embodied AI (Robotics/VLA), Generative Media, Bio-AI
 ```
 
 ---
 
-## ★ Role Overview Table (31 Roles) { #-role-overview-table-31-roles }
+## ★ Role Overview Table { #-role-overview-table-31-roles }
 
-| # | Role | Layer | Entry Difficulty | Availability | Salary (US Range) | Min Education |
+| # | Role | Layer | Entry Difficulty | Availability (2026) | Salary (US Range) | Min Education |
 |:---:|------|:---:|:---:|:---:|---|:---:|
-| 1 | Full-Stack AI Engineer | L6 | 🟡 Moderate | 🟢 Very High | $88K–$250K+ | Bachelor's |
-| 2 | AI Integration Engineer | L6 | 🟡 Moderate | 🟢 Very High | $120K–$250K+ | Bachelor's |
-| 3 | AI Sales Engineer | L6 | 🟢 Accessible | 🟢 High | $120K–$250K+ | Bachelor's |
-| 4 | AI Consultant / Strategist | L6 | 🟡 Moderate | 🟢 High | $130K–$280K+ | Bachelor's |
-| 5 | AI Product Manager | L6 | 🔴 Advanced | 🟢 High | $150K–$300K+ | Bachelor's |
-| 6 | Conversational AI Engineer | L6 | 🔴 Advanced | 🟡 Medium | $140K–$300K+ | Bachelor's |
-| 7 | AI Technical Writer / DevRel | L6 | 🟢 Accessible | 🟢 High | $110K–$220K+ | Bachelor's |
-| 8 | AI Engineer | L5 | 🟡 Moderate | 🟢 Very High | $100K–$350K+ | Bachelor's |
-| 9 | Generative AI Engineer | L5 | 🟡 Moderate | 🟢 High | $120K–$350K+ | Bachelor's |
-| 10 | Agentic AI Engineer | L5 | 🟡 Moderate | 🟡 Medium-High | $170K–$350K+ | Bachelor's |
-| 11 | Prompt Engineer | L5 | 🟢 Accessible | 🟢 High | $80K–$250K | Bachelor's |
-| 12 | AI Solutions Architect | L5 | 🔴 Advanced | 🟡 Medium | $160K–$320K+ | Bachelor's |
-| 13 | AI Developer Tools Engineer | L5 | 🔴 Advanced | 🟡 Growing | $150K–$300K+ | Bachelor's |
-| 14 | LLM Engineer | L4 | 🔴 Advanced | 🟡 Medium-High | $180K–$400K+ | Master's pref |
-| 15 | RAG Engineer | L4 | 🟡 Moderate | 🟡 Medium-High | $150K–$300K+ | Bachelor's |
-| 16 | AI Data Engineer | L4 | 🟡 Moderate | 🟢 High | $130K–$260K+ | Bachelor's |
-| 17 | NLP Engineer | L4 | 🔴 Advanced | 🟡 Medium | $130K–$280K+ | Master's pref |
-| 18 | Computer Vision Engineer | L4 | 🔴 Advanced | 🟡 Medium | $137K–$350K+ | Master's pref |
-| 19 | Data Scientist (GenAI) | L4 | 🟡 Moderate | 🟢 Very High | $95K–$280K+ | Bachelor's |
-| 20 | AI Safety / Red Team Eng | L4 | ⚫ Elite | 🔴 Niche | $160K–$300K+ | Master's pref |
-| 21 | AI Trainer / RLHF Annotator | L4 | 🟢 Accessible | 🟢 Very High | $45K–$180K+ | None/Bachelor's |
-| 22 | MLOps / LLMOps Engineer | L3 | 🔴 Advanced | 🟢 Very High | $140K–$280K+ | Bachelor's |
-| 23 | ML Engineer | L3 | 🔴 Advanced | 🟢 Very High | $96K–$550K TC | Bachelor's |
-| 24 | Inference Optimization Eng | L3 | ⚫ Elite | 🔴 Niche | $167K–$350K+ | Master's/PhD |
-| 25 | Foundation Model Engineer | L2 | ⚫ Elite | 🔴 Very Few | $160K–$400K+ | Master's/PhD |
-| 26 | AI Research Scientist | L2 | ⚫ Elite | 🔴 Niche | $115K–$400K+ | PhD preferred |
-| 27 | Applied AI Scientist | L2 | ⚫ Elite | 🟡 Medium | $150K–$400K+ | Master's/PhD |
-| 28 | AI Infra / Platform Engineer | L1 | ⚫ Elite | 🔴 Niche | $140K–$320K+ | Bachelor's |
-| 29 | AI Compiler / Kernel Engineer | L1 | ⚫ Elite | 🔴 Ultra-Niche | $250K–$400K+ | Master's/PhD |
-| 30 | AI Ethics & Governance Lead | Cross | 🔴 Advanced | 🟡 Medium | $140K–$280K+ | Master's pref |
-| 31 | AI Data Governance Manager | Cross | 🔴 Advanced | 🟡 Medium | $130K–$260K+ | Bachelor's |
+| 1 | Full-Stack AI Engineer | L6 | 🟡 Moderate | 🟢 Very High | $110K–$250K+ | Bachelor's |
+| 2 | Forward Deployed AI Engineer (FDE) | L6 | 🔴 Advanced | 🟢 Elite / Surging | $190K–$450K+ | Bachelor's |
+| 3 | AI Coding Agent / SWE Agent Engineer | L6 | 🔴 Advanced | 🟢 Surging | $170K–$380K+ | Bachelor's |
+| 4 | AI Integration Engineer | L6 | 🟡 Moderate | 🟢 Very High | $120K–$250K+ | Bachelor's |
+| 5 | AI Workflow Automation Engineer | L6 | 🟡 Moderate | 🟢 Very High | $115K–$220K+ | Bachelor's |
+| 6 | AI Enablement & DevEx Engineer | L6 | 🟡 Moderate | 🟢 High | $140K–$260K+ | Bachelor's |
+| 7 | AI Sales Engineer | L6 | 🟢 Accessible | 🟢 High | $120K–$250K+ | Bachelor's |
+| 8 | AI Consultant / Strategist | L6 | 🟡 Moderate | 🟢 High | $130K–$280K+ | Bachelor's |
+| 9 | AI Product Manager | L6 | 🔴 Advanced | 🟢 High | $150K–$300K+ | Bachelor's |
+| 10 | Conversational AI Engineer | L6 | 🔴 Advanced | 🟡 Medium | $140K–$300K+ | Bachelor's |
+| 11 | AI Technical Writer / DevRel | L6 | 🟢 Accessible | 🟢 High | $110K–$220K+ | Bachelor's |
+| 12 | Context Engineer | L5 | 🟡 Moderate | 🟢 High (Surging) | $135K–$260K+ | Bachelor's |
+| 13 | Agentic Protocol & Tooling Eng (MCP) | L5 | 🔴 Advanced | 🟢 High (Surging) | $150K–$300K+ | Bachelor's |
+| 14 | Agentic AI Engineer | L5 | 🟡 Moderate | 🟢 Very High | $170K–$350K+ | Bachelor's |
+| 15 | Cognitive Architect | L5 | 🔴 Advanced | 🟡 High | $170K–$360K+ | Bachelor's |
+| 16 | AI Engineer | L5 | 🟡 Moderate | 🟢 Very High | $120K–$350K+ | Bachelor's |
+| 17 | Generative AI Engineer | L5 | 🟡 Moderate | 🟢 High | $130K–$350K+ | Bachelor's |
+| 18 | Prompt Engineer (Retiring / Senior) | L5 | 🟢 Accessible | 🔴 Fading into Context Eng | $80K–$180K | Bachelor's |
+| 19 | AI Solutions Architect | L5 | 🔴 Advanced | 🟡 Medium | $160K–$320K+ | Bachelor's |
+| 20 | AI Developer Tools Engineer | L5 | 🔴 Advanced | 🟡 Growing | $150K–$300K+ | Bachelor's |
+| 21 | Post-Training & Alignment Engineer | L4 | ⚫ Elite | 🟢 Elite / Surging | $180K–$420K+ | Master's/PhD |
+| 22 | AI Evals & Model Quality Engineer | L4 | 🟡 Moderate | 🟢 Very High | $145K–$280K+ | Bachelor's |
+| 23 | Synthetic Data & Generation Engineer | L4 | 🟡 Moderate | 🟢 High | $140K–$290K+ | Bachelor's |
+| 24 | LLM Engineer | L4 | 🔴 Advanced | 🟡 Medium-High | $180K–$400K+ | Master's pref |
+| 25 | RAG Engineer | L4 | 🟡 Moderate | 🟡 Medium-High | $150K–$300K+ | Bachelor's |
+| 26 | AI Data Engineer | L4 | 🟡 Moderate | 🟢 High | $130K–$260K+ | Bachelor's |
+| 27 | NLP Engineer | L4 | 🔴 Advanced | 🟡 Medium | $130K–$280K+ | Master's pref |
+| 28 | Computer Vision Engineer | L4 | 🔴 Advanced | 🟡 Medium | $137K–$350K+ | Master's pref |
+| 29 | Data Scientist (GenAI) | L4 | 🟡 Moderate | 🟢 Very High | $110K–$280K+ | Bachelor's |
+| 30 | AI Red Team Operator | L4 | ⚫ Elite | 🟢 Surging | $160K–$340K+ | Master's pref |
+| 31 | Frontier Safety & Preparedness Eng | L4/L2 | ⚫ Elite | 🟢 Elite | $200K–$480K+ | PhD preferred |
+| 32 | AI Trainer / Annotator | L4 | 🟢 Accessible | 🟡 Fading into Synthetic Data | $45K–$120K | None/Bachelor's |
+| 33 | Neurosymbolic AI Engineer | L4/L5 | ⚫ Elite | 🟡 Niche / Elite | $170K–$380K+ | Master's/PhD |
+| 34 | Test-Time Compute & Reasoning Eng | L3 | ⚫ Elite | 🟢 Surging | $190K–$450K+ | Master's/PhD |
+| 35 | Disaggregated Serving (P/D) Eng | L3 | ⚫ Elite | 🟢 Surging | $195K–$420K+ | Master's/PhD |
+| 36 | On-Device / Edge SLM Engineer | L3 | 🔴 Advanced | 🟡 High | $160K–$320K+ | Bachelor's |
+| 37 | MLOps / LLMOps Engineer | L3 | 🔴 Advanced | 🟢 Very High | $140K–$280K+ | Bachelor's |
+| 38 | ML Engineer | L3 | 🔴 Advanced | 🟢 Very High | $120K–$350K TC | Bachelor's |
+| 39 | Inference Optimization Eng | L3 | ⚫ Elite | 🟡 Medium | $170K–$360K+ | Master's/PhD |
+| 40 | Foundation Model Engineer | L2 | ⚫ Elite | 🔴 Few | $180K–$450K+ | Master's/PhD |
+| 41 | AI Research Scientist | L2 | ⚫ Elite | 🔴 Few | $140K–$450K+ | PhD preferred |
+| 42 | Applied AI Scientist | L2 | ⚫ Elite | 🟡 Medium | $160K–$400K+ | Master's/PhD |
+| 43 | Mechanistic Interpretability Eng | L2 | ⚫ Elite | 🟡 Elite / Lab | $180K–$420K+ | Master's/PhD |
+| 44 | AI Infra / Platform Engineer | L1 | ⚫ Elite | 🟡 Medium-High | $150K–$340K+ | Bachelor's |
+| 45 | AI Datacenter & Interconnect Eng | L1 | ⚫ Elite | 🟢 Surging | $175K–$380K+ | Bachelor's |
+| 46 | AI Compiler / Kernel Engineer | L1 | ⚫ Elite | 🔴 Niche | $250K–$450K+ | Master's/PhD |
+| 47 | Chief AI Officer (CAIO) / VP AI | Cross | 🔴 Executive | 🟢 High (C-Suite) | $280K–$650K+ | Executive |
+| 48 | AI Regulatory & Compliance Eng | Cross | 🔴 Advanced | 🟢 High Growth | $135K–$260K+ | Master's pref |
+| 49 | AI Product Counsel | Cross | 🔴 Advanced | 🟢 High Growth | $180K–$380K+ | JD / Law |
+| 50 | Embodied AI / Physical AI Engineer | Cross | ⚫ Elite | 🟢 High Growth | $175K–$380K+ | Master's/PhD |
+| 51 | Generative Media Engineer | Cross | 🔴 Advanced | 🟢 High Growth | $150K–$320K+ | Bachelor's |
+| 52 | Bio-AI / AI Drug Discovery Engineer | Cross | ⚫ Elite | 🟢 Surging | $165K–$360K+ | Master's/PhD |
+| 53 | AI Ethics & Governance Lead | Cross | 🔴 Advanced | 🟡 Medium | $140K–$280K+ | Master's pref |
+| 54 | AI Data Governance Manager | Cross | 🔴 Advanced | 🟡 Medium | $130K–$260K+ | Bachelor's |
 
 ---
 
@@ -910,30 +945,33 @@ Topics: Bias mitigation, guardrails, EU AI Act, responsible AI, red teaming, OWA
 ## ★ Job Search Keywords { #-job-search-keywords }
 
 ```
-LAYER 6: "AI integration engineer", "full-stack AI", "AI-powered app developer",
-         "AI product manager", "AI consultant", "AI solutions consultant",
-         "conversational AI", "AI chatbot developer", "developer advocate AI",
-         "AI technical writer", "AI sales engineer"
+LAYER 6: "forward deployed engineer", "forward deployed AI engineer", "frontier deployed engineer",
+         "AI integration engineer", "full-stack AI", "SWE agent developer", "AI coding agent",
+         "AI workflow automation", "AI product manager", "AI consultant", "AI enablement engineer",
+         "conversational AI", "developer advocate AI", "AI technical writer", "AI sales engineer"
 
-LAYER 5: "AI engineer", "GenAI engineer", "generative AI developer",
-         "LLM application developer", "prompt engineer", "AI architect",
-         "AI agent developer", "agentic AI", "AI developer tools"
+LAYER 5: "AI engineer", "GenAI engineer", "generative AI developer", "context engineer",
+         "model context protocol", "MCP engineer", "cognitive architect", "LLM application developer",
+         "AI architect", "agentic AI", "AI agent developer", "AI developer tools"
 
-LAYER 4: "LLM engineer", "RAG engineer", "NLP engineer", "AI data engineer",
-         "computer vision engineer", "data scientist GenAI", "AI safety",
-         "AI red team", "AI trainer", "RLHF", "data annotator AI"
+LAYER 4: "post-training engineer", "AI evals engineer", "model evaluation engineer", "LLM engineer",
+         "RAG engineer", "synthetic data engineer", "NLP engineer", "AI data engineer",
+         "computer vision engineer", "data scientist GenAI", "AI safety", "AI red team operator",
+         "frontier safety engineer", "RLHF alignment engineer"
 
-LAYER 3: "MLOps engineer", "LLMOps", "ML engineer", "machine learning engineer",
-         "inference optimization", "model serving engineer"
+LAYER 3: "test-time compute engineer", "reasoning optimization", "disaggregated serving",
+         "KV cache engineer", "on-device AI engineer", "edge SLM engineer", "MLOps engineer",
+         "LLMOps", "ML engineer", "machine learning engineer", "inference optimization"
 
-LAYER 2: "foundation model engineer", "pre-training engineer",
+LAYER 2: "foundation model engineer", "pre-training engineer", "mechanistic interpretability",
          "AI research scientist", "applied scientist", "research engineer ML"
 
-LAYER 1: "ML platform engineer", "AI infrastructure", "CUDA engineer",
-         "AI compiler engineer", "GPU kernel engineer"
+LAYER 1: "AI cluster engineer", "InfiniBand engineer", "NCCL performance", "ML platform engineer",
+         "AI infrastructure", "CUDA engineer", "AI compiler engineer", "GPU kernel engineer"
 
-CROSS:   "AI ethics", "responsible AI", "AI governance", "AI compliance",
-         "AI data governance"
+CROSS:   "Chief AI Officer", "CAIO", "AI regulatory compliance", "EU AI Act engineer",
+         "AI product counsel", "embodied AI", "physical AI", "VLA engineer", "Bio-AI engineer",
+         "AI ethics", "responsible AI", "AI governance", "AI data governance"
 ```
 
 ---
@@ -1020,61 +1058,81 @@ INDIA SALARY CONTEXT:
 
 ---
 
-## ★ Salary Table (All 31 Roles) { #-salary-table-all-31-roles }
+## ★ Salary Table (Comprehensive 2026 Reference) { #-salary-table-all-31-roles }
 
 ```
                            UNITED STATES ($K/yr)         INDIA (₹ LPA)
                        Entry    Mid    Senior+      Entry   Mid   Senior+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 6 — APPLICATION:
+LAYER 6 — APPLICATION & FIELD:
+Forward Deployed Eng (FDE) —    190-280  280-450+      —   35-55  55-90+
 Full-Stack AI Eng.       88    120-180  168-250+    6-12  15-30  30-55+
+AI Coding Agent (SWE)     —    170-250  240-380+      —   30-50  50-75+
 AI Integration Eng.       —    120-180  160-250+      —   12-25  25-50+
+AI Workflow Auto Eng.     —    115-170  160-220+      —   16-25  25-38+
+AI Enablement / DevEx     —    140-190  180-260+      —   20-35  35-50+
 AI Sales Engineer         —    120-180  160-250+      —   15-30  30-55+
 AI Consultant/Strategist  —    130-200  180-280+      —   15-35  35-65+
 AI Product Manager        —    150-220  200-300+      —   20-40  40-70+
 Conversational AI Eng     —    140-210  190-300+      —   18-35  35-60+
 AI Tech Writer/DevRel     —    110-170  150-220+      —   12-25  25-45+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 5 — ORCHESTRATION:
+LAYER 5 — ORCHESTRATION & CONTEXT:
+Context Engineer          —    135-200  190-260+      —   20-35  35-50+
+Agentic Protocol (MCP)    —    150-220  200-300+      —   25-40  40-60+
+Agentic AI Engineer       —    170-250  220-350+      —   25-45  45-75+
+Cognitive Architect       —    170-240  240-360+      —   32-50  50-75+
 AI Engineer             100    140-211  195-350+    5-12  18-32  35-60+
 GenAI Engineer          120    180-250  220-350+    8-15  25-45  50-80+
-Agentic AI Engineer       —    170-250  220-350+      —   25-45  45-75+
-Prompt Engineer          80    120-180  160-250    5-10  15-30  30-50+
+Prompt Eng (Retiring)    80    120-160  150-180     5-10  12-20  20-28
 AI Solutions Architect    —    160-230  200-320+      —   25-45  45-75+
 AI DevTools Engineer      —    150-220  200-300+      —   20-40  40-70+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 4 — FINE-TUNING:
+LAYER 4 — POST-TRAINING & EVALS:
+Post-Training / RL Eng    —    180-270  260-420+      —   35-55  55-85+
+AI Evals / Quality Eng    —    145-210  200-280+      —   22-38  38-55+
+Synthetic Data Engineer   —    140-200  190-290+      —   24-38  38-60+
 LLM Engineer              —    180-260  240-400+      —   20-40  40-70+
 RAG Engineer              —    150-220  200-300+      —   18-35  35-60+
 AI Data Engineer          —    130-190  175-260+      —   15-28  28-50+
 NLP Engineer              —    130-200  180-280+      —   15-30  30-55+
 Computer Vision Eng.      —    137-200  200-350+      —   15-30  30-55+
 Data Scientist (GenAI)   95    130-200  180-280+    6-14  18-35  35-60+
-AI Safety/Red Team        —    160-220  200-300+      —   20-35  35-60+
-AI Trainer/RLHF          45     75-120  120-180+    3-8   8-15   15-30+
+AI Red Team Operator      —    160-230  220-340+      —   28-45  45-65+
+Frontier Safety Eng       —    200-280  280-480+      —   45-70  70-1Cr+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 3 — INFERENCE:
+LAYER 3 — INFERENCE & SERVING:
+Test-Time Compute Eng     —    190-280  270-450+      —   40-60  60-95+
+Disaggregated Serving     —    195-270  260-420+      —   40-58  58-90+
+On-Device / Edge SLM      —    160-220  210-320+      —   28-45  45-65+
 MLOps/LLMOps Eng.         —    140-200  180-280+      —   15-30  30-55+
 ML Engineer              96    149-200  175-240+    8-15  20-35  35-60+
 Inference Opt Eng.        —    167-209  200-350+      —   25-45  45-80+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 2 — FOUNDATION:
-Foundation Model Eng.     —    160-250  250-400+      —   25-45  50-80+
+LAYER 2 — FOUNDATION & RESEARCH:
+Foundation Model Eng.     —    180-260  260-450+      —   45-65  65-1Cr+
+Mechanistic Interp        —    180-260  250-420+      —   35-55  55-85+
 Applied Scientist         —    150-220  200-400+      —   20-40  40-70+
 AI Research Scientist   115    160-260  220-400+      —   30-50  40-80+
 ──────────────────────────────────────────────────────────────────────────
-LAYER 1 — INFRASTRUCTURE:
-AI Infra/Platform Eng.    —    140-220  192-320+      —   20-40  40-70+
-AI Compiler/Kernel Eng.   —       —     250-400+      —      —   45-80+
+LAYER 1 — INFRASTRUCTURE & HARDWARE:
+AI Datacenter/Interconn   —    175-240  230-380+      —   35-50  50-80+
+AI Infra/Platform Eng.    —    150-220  200-340+      —   30-45  45-75+
+AI Compiler/Kernel Eng.   —       —     250-450+      —      —   50-1.2Cr
 ──────────────────────────────────────────────────────────────────────────
 CROSS-CUTTING:
+Chief AI Officer (CAIO)   —       —     280-650+      —      —   60-1.8Cr
+AI Regulatory Compliance  —    135-190  180-260+      —   20-35  35-48+
+AI Product Counsel        —    180-250  240-380+      —   30-45  45-70+
+Embodied AI (Robotics)    —    175-250  240-380+      —   30-48  48-75+
+Generative Media Eng      —    150-210  200-320+      —   25-40  40-65+
+Bio-AI / Drug Discovery   —    165-240  230-360+      —   30-48  48-70+
 AI Ethics/Governance      —    140-200  180-280+      —   18-35  35-60+
 AI Data Governance Mgr.   —    130-190  170-260+      —   15-30  30-55+
 
-FAANG Senior TC (total comp with equity): $320-550K+
-Staff/Principal at frontier labs: up to $943K (outlier)
-GenAI premium: +40-60% over traditional ML salaries
-India: Service cos pay 40-60% less than product cos for same role
+FAANG Senior TC (total comp with equity): $350-550K+
+Staff/Principal at frontier labs: up to $950K+ (equity-heavy)
+India: Product cos pay 2-3x service cos; MNC labs pay top-tier global bands
 ```
 
 ---

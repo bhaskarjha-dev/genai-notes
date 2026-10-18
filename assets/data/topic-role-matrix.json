@@ -4,73 +4,118 @@
       "Id": "README",
       "Title": "Individual Role Guides",
       "PrimaryTrack": null,
-      "MustCount": 20,
+      "MustCount": 23,
       "GoodCount": 0,
       "OptionalCount": 0,
-      "NotRelevantCount": 63
+      "NotRelevantCount": 60
     },
     {
       "Id": "agentic-ai-engineer",
       "Title": "Agentic AI Engineer",
       "PrimaryTrack": "B",
-      "MustCount": 25,
+      "MustCount": 27,
       "GoodCount": 5,
       "OptionalCount": 19,
-      "NotRelevantCount": 34
+      "NotRelevantCount": 32
+    },
+    {
+      "Id": "ai-coding-agent-engineer",
+      "Title": "AI Coding Agent / SWE Agent Engineer",
+      "PrimaryTrack": null,
+      "MustCount": 26,
+      "GoodCount": 6,
+      "OptionalCount": 0,
+      "NotRelevantCount": 51
     },
     {
       "Id": "ai-engineer",
       "Title": "AI Engineer",
       "PrimaryTrack": "A",
-      "MustCount": 22,
+      "MustCount": 25,
       "GoodCount": 4,
-      "OptionalCount": 10,
-      "NotRelevantCount": 47
+      "OptionalCount": 8,
+      "NotRelevantCount": 46
+    },
+    {
+      "Id": "context-engineer",
+      "Title": "Context Engineer",
+      "PrimaryTrack": null,
+      "MustCount": 26,
+      "GoodCount": 4,
+      "OptionalCount": 0,
+      "NotRelevantCount": 53
+    },
+    {
+      "Id": "evals-engineer",
+      "Title": "AI Evals & Model Quality Engineer",
+      "PrimaryTrack": null,
+      "MustCount": 28,
+      "GoodCount": 4,
+      "OptionalCount": 0,
+      "NotRelevantCount": 51
+    },
+    {
+      "Id": "forward-deployed-engineer",
+      "Title": "Forward Deployed AI Engineer (FDE)",
+      "PrimaryTrack": null,
+      "MustCount": 28,
+      "GoodCount": 4,
+      "OptionalCount": 0,
+      "NotRelevantCount": 51
     },
     {
       "Id": "genai-engineer",
       "Title": "Generative AI Engineer",
       "PrimaryTrack": "B",
-      "MustCount": 22,
-      "GoodCount": 4,
+      "MustCount": 25,
+      "GoodCount": 3,
       "OptionalCount": 20,
-      "NotRelevantCount": 37
+      "NotRelevantCount": 35
     },
     {
       "Id": "llm-engineer",
       "Title": "LLM Engineer",
       "PrimaryTrack": "B",
-      "MustCount": 22,
+      "MustCount": 25,
       "GoodCount": 3,
-      "OptionalCount": 21,
-      "NotRelevantCount": 37
+      "OptionalCount": 20,
+      "NotRelevantCount": 35
     },
     {
       "Id": "ml-engineer",
       "Title": "ML Engineer",
       "PrimaryTrack": "C",
-      "MustCount": 28,
+      "MustCount": 31,
       "GoodCount": 5,
       "OptionalCount": 1,
-      "NotRelevantCount": 49
+      "NotRelevantCount": 46
     },
     {
       "Id": "mlops-engineer",
       "Title": "MLOps / LLMOps Engineer",
       "PrimaryTrack": "C",
-      "MustCount": 28,
+      "MustCount": 31,
       "GoodCount": 5,
       "OptionalCount": 2,
-      "NotRelevantCount": 48
+      "NotRelevantCount": 45
+    },
+    {
+      "Id": "post-training-engineer",
+      "Title": "Post-Training & Alignment Engineer",
+      "PrimaryTrack": null,
+      "MustCount": 28,
+      "GoodCount": 4,
+      "OptionalCount": 0,
+      "NotRelevantCount": 51
     },
     {
       "Id": "rag-engineer",
       "Title": "RAG Engineer",
       "PrimaryTrack": "B",
-      "MustCount": 22,
+      "MustCount": 25,
       "GoodCount": 3,
-      "OptionalCount": 21,
-      "NotRelevantCount": 37
+      "OptionalCount": 20,
+      "NotRelevantCount": 35
     }
   ],
   "Topics": [
@@ -83,11 +128,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -100,11 +150,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Good",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -117,11 +172,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Must",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -132,14 +192,19 @@
       "Difficulty": "intermediate",
       "SitePath": "agents/agentic-protocols.html",
       "Statuses": {
-        "README": "Not Relevant",
+        "README": "Must",
         "agentic-ai-engineer": "Must",
-        "ai-engineer": "Optional",
-        "genai-engineer": "Good",
-        "llm-engineer": "Optional",
-        "ml-engineer": "Not Relevant",
-        "mlops-engineer": "Not Relevant",
-        "rag-engineer": "Optional"
+        "ai-coding-agent-engineer": "Must",
+        "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
+        "genai-engineer": "Must",
+        "llm-engineer": "Must",
+        "ml-engineer": "Must",
+        "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
+        "rag-engineer": "Must"
       }
     },
     {
@@ -151,11 +216,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Good",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -168,11 +238,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -185,11 +260,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -202,11 +282,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -219,11 +304,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Good",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -236,11 +326,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -253,11 +348,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Good",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -270,11 +370,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -287,11 +392,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Good",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -304,11 +414,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Good",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Good",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -321,11 +436,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -338,11 +458,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Good",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -355,11 +480,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -372,11 +502,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Good",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -389,11 +524,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -406,11 +546,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Good",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Good",
         "rag-engineer": "Optional"
       }
     },
@@ -423,11 +568,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -440,11 +590,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Good",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -457,11 +612,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -474,11 +634,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Must",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -491,11 +656,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -508,11 +678,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -525,11 +700,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -542,11 +722,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -559,11 +744,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -576,11 +766,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -593,11 +788,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Good",
         "mlops-engineer": "Good",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -610,11 +810,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Good",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -627,11 +832,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Good",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Must",
         "ml-engineer": "Good",
         "mlops-engineer": "Optional",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -644,11 +854,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Good",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Good",
         "llm-engineer": "Good",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Good"
       }
     },
@@ -661,11 +876,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -678,11 +898,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -693,14 +918,19 @@
       "Difficulty": "advanced",
       "SitePath": "llms/reasoning-models.html",
       "Statuses": {
-        "README": "Not Relevant",
-        "agentic-ai-engineer": "Not Relevant",
-        "ai-engineer": "Not Relevant",
-        "genai-engineer": "Not Relevant",
-        "llm-engineer": "Not Relevant",
-        "ml-engineer": "Not Relevant",
-        "mlops-engineer": "Not Relevant",
-        "rag-engineer": "Not Relevant"
+        "README": "Must",
+        "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
+        "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
+        "genai-engineer": "Must",
+        "llm-engineer": "Must",
+        "ml-engineer": "Must",
+        "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
+        "rag-engineer": "Must"
       }
     },
     {
@@ -712,11 +942,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -729,11 +964,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -746,11 +986,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -763,11 +1008,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -780,11 +1030,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -797,11 +1052,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -814,11 +1074,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -831,11 +1096,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -848,11 +1118,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -865,11 +1140,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Must",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Good",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Good"
       }
     },
@@ -882,11 +1162,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -899,11 +1184,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Must",
         "mlops-engineer": "Optional",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -916,11 +1206,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Good",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Good",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Optional",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -933,11 +1228,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Good",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -950,11 +1250,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -967,11 +1272,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -984,11 +1294,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Good",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Good",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1001,11 +1316,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Good",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1018,11 +1338,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Must",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Must",
         "llm-engineer": "Optional",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Good"
       }
     },
@@ -1035,11 +1360,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Good",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Good",
         "mlops-engineer": "Good",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1052,11 +1382,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1069,11 +1404,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Good",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Good",
+        "forward-deployed-engineer": "Good",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1086,11 +1426,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Good",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1103,11 +1448,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Good",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1120,11 +1470,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1137,11 +1492,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1154,11 +1514,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Good",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Must",
         "rag-engineer": "Optional"
       }
     },
@@ -1171,11 +1536,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -1188,11 +1558,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1205,11 +1580,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1222,11 +1602,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -1239,11 +1624,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -1256,11 +1646,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Good",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Good",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Must"
       }
     },
@@ -1273,11 +1668,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Good",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Must",
         "rag-engineer": "Optional"
       }
     },
@@ -1290,11 +1690,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Must",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Optional"
       }
     },
@@ -1307,11 +1712,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Must",
         "rag-engineer": "Optional"
       }
     },
@@ -1324,11 +1734,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -1341,11 +1756,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Good",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Must",
         "rag-engineer": "Optional"
       }
     },
@@ -1358,11 +1778,16 @@
       "Statuses": {
         "README": "Must",
         "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
         "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Must",
         "llm-engineer": "Must",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
         "rag-engineer": "Must"
       }
     },
@@ -1373,14 +1798,19 @@
       "Difficulty": "intermediate",
       "SitePath": "techniques/structured-outputs.html",
       "Statuses": {
-        "README": "Not Relevant",
-        "agentic-ai-engineer": "Not Relevant",
-        "ai-engineer": "Optional",
-        "genai-engineer": "Not Relevant",
-        "llm-engineer": "Not Relevant",
-        "ml-engineer": "Not Relevant",
-        "mlops-engineer": "Not Relevant",
-        "rag-engineer": "Not Relevant"
+        "README": "Must",
+        "agentic-ai-engineer": "Must",
+        "ai-coding-agent-engineer": "Must",
+        "ai-engineer": "Must",
+        "context-engineer": "Must",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Must",
+        "genai-engineer": "Must",
+        "llm-engineer": "Must",
+        "ml-engineer": "Must",
+        "mlops-engineer": "Must",
+        "post-training-engineer": "Must",
+        "rag-engineer": "Must"
       }
     },
     {
@@ -1392,11 +1822,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Must",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Must",
         "rag-engineer": "Optional"
       }
     },
@@ -1409,11 +1844,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1426,11 +1866,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Good",
         "mlops-engineer": "Good",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1443,11 +1888,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1460,11 +1910,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Not Relevant",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Not Relevant",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Not Relevant",
         "genai-engineer": "Not Relevant",
         "llm-engineer": "Not Relevant",
         "ml-engineer": "Must",
         "mlops-engineer": "Must",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Not Relevant"
       }
     },
@@ -1477,11 +1932,16 @@
       "Statuses": {
         "README": "Not Relevant",
         "agentic-ai-engineer": "Optional",
+        "ai-coding-agent-engineer": "Not Relevant",
         "ai-engineer": "Optional",
+        "context-engineer": "Not Relevant",
+        "evals-engineer": "Not Relevant",
+        "forward-deployed-engineer": "Must",
         "genai-engineer": "Optional",
         "llm-engineer": "Optional",
         "ml-engineer": "Not Relevant",
         "mlops-engineer": "Not Relevant",
+        "post-training-engineer": "Not Relevant",
         "rag-engineer": "Must"
       }
     }

@@ -15,9 +15,11 @@
 | [Function Calling, Structured Output & Tool Use](function-calling-and-structured-output.md) | Intermediate | Mechanisms for LLMs to (1) call external functions/APIs and (2) return data in strict schemas (JSON, Pydantic) |
 | [Graph RAG & Advanced Retrieval](graph-rag.md) | Advanced | RAG enhanced with knowledge graphs for structured reasoning and multi-hop retrieval |
 | [Long-Context Engineering](long-context-engineering.md) | Advanced | Techniques for effectively using large context windows (128K-2M tokens) - structuring input, managing retrieval vs context stuffing, and handling the "lost in the middle" problem |
+| [Model Merging](model-merging.md) | Advanced | Techniques to combine the weights of multiple fine-tuned models into a single model without additional training |
 | [Prompt Engineering](prompt-engineering.md) | Beginner | Crafting inputs (prompts) to get desired outputs from LLMs without changing the model |
 | [Retrieval-Augmented Generation (RAG)](rag.md) | Intermediate | A pattern that retrieves relevant external documents and feeds them to an LLM as context before generation |
 | [Reinforcement Learning for LLM Alignment](rl-alignment.md) | Advanced | Techniques that align LLM behavior with human preferences using reinforcement learning or preference optimization |
+| [Structured Outputs & Constrained Generation](structured-outputs.md) | Intermediate | Techniques that force LLMs to produce output conforming to a specific schema - guaranteed structurally valid |
 | [Synthetic Data & Data Engineering for LLMs](synthetic-data-and-data-engineering.md) | Intermediate | Generating artificial training data using LLMs and curating/filtering real data for training |
 
 ---

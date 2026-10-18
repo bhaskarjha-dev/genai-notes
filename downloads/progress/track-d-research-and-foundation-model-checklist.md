@@ -20,7 +20,7 @@
 - [ ] [Modern LLM Architectures](../../foundations/modern-architectures.md) - 4h
 - [ ] [Scaling Laws & Pre-training](../../foundations/scaling-laws-and-pretraining.md) - 4h
 
-## Level 3: Core GenAI Techniques (~25 hours)
+## Level 3: Core GenAI Techniques (~35 hours)
 
 - [ ] [Large Language Models (LLMs)](../../llms/llms-overview.md) - 3h
 - [ ] [Prompt Engineering](../../techniques/prompt-engineering.md) - 2h
@@ -30,6 +30,9 @@
 - [ ] [Fine-Tuning LLMs](../../techniques/fine-tuning.md) - 4h
 - [ ] [AI Agents](../../agents/ai-agents.md) - 4h
 - [ ] [LLM Evaluation & Benchmarks](../../evaluation/evaluation-and-benchmarks.md) - 2h
+- [ ] [Reasoning Models & Test-Time Compute](../../llms/reasoning-models.md) - 3h
+- [ ] [Agentic Protocols & Frameworks](../../agents/agentic-protocols.md) - 4h
+- [ ] [Structured Outputs & Constrained Generation](../../techniques/structured-outputs.md) - 3h
 
 ## Track D - Research and Foundation Model
 

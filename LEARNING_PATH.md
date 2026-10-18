@@ -16,7 +16,7 @@ Study tools that sit on top of this curriculum:
 
 ---
 
-## Part 1: Universal Foundation (~60 hours)
+## Part 1: Universal Foundation (~70 hours)
 
 Every GenAI learner starts here, regardless of the target role.
 
@@ -42,7 +42,7 @@ Every GenAI learner starts here, regardless of the target role.
 | 11 | Modern Architectures | [modern-architectures](foundations/modern-architectures.md) | 4h | intermediate |
 | 12 | Scaling Laws and Pretraining | [scaling-laws-and-pretraining](foundations/scaling-laws-and-pretraining.md) | 4h | advanced |
 
-### Level 3: Core GenAI Techniques (~25 hours)
+### Level 3: Core GenAI Techniques (~35 hours)
 
 | # | Topic | Note | Est. Time | Difficulty |
 |---|-------|------|:---------:|:----------:|
@@ -54,6 +54,9 @@ Every GenAI learner starts here, regardless of the target role.
 | 18 | Fine-Tuning | [fine-tuning](techniques/fine-tuning.md) | 4h | intermediate |
 | 19 | AI Agents | [ai-agents](agents/ai-agents.md) | 4h | intermediate |
 | 20 | Evaluation and Benchmarks | [evaluation](evaluation/evaluation-and-benchmarks.md) | 2h | intermediate |
+| 21 | Reasoning Models & Test-Time Compute | [reasoning-models](llms/reasoning-models.md) | 3h | advanced |
+| 22 | Agentic Protocols & Frameworks | [agentic-protocols](agents/agentic-protocols.md) | 4h | intermediate |
+| 23 | Structured Outputs & Constrained Decoding | [structured-outputs](techniques/structured-outputs.md) | 3h | intermediate |
 
 After Part 1, you have the foundation for any GenAI role.
 

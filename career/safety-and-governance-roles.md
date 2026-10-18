@@ -31,7 +31,7 @@ updated: 2026-04-12
 
 ### Phase 1: Foundation
 
-Complete [Part 1 of the Learning Path](../LEARNING_PATH.md#part-1-universal-foundation-60-hours) first.
+Complete [Part 1 of the Learning Path](../LEARNING_PATH.md#part-1-universal-foundation-70-hours) first.
 
 ### Phase 2: Shared Core
 

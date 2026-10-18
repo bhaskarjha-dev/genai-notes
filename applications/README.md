@@ -6,6 +6,7 @@
 
 | Note | Difficulty | Description |
 |------|:----------:|-------------|
+| [AI Coding Agents](ai-coding-agents.md) | Intermediate | AI systems that autonomously write, edit, test, and refactor code in real codebases - going far beyond autocomplete |
 | [AI Product Management Fundamentals](ai-product-management-fundamentals.md) | Intermediate | The product-thinking layer for identifying, shaping, and delivering useful AI features. |
 | [AI UX Patterns](ai-ux-patterns.md) | Intermediate | Design patterns for building user interfaces around AI systems - handling latency, uncertainty, trust, and error |
 | [API Design for AI Applications](api-design-for-ai.md) | Intermediate | The design patterns for building application-facing APIs around AI systems. |

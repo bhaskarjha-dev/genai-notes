@@ -218,6 +218,11 @@ nav:
   - Career Guides:
       - Role Reference: career/genai-career-roles-universal.md
       - AI Engineer: career/roles/ai-engineer.md
+      - Forward Deployed AI Engineer: career/roles/forward-deployed-engineer.md
+      - AI Evals Engineer: career/roles/evals-engineer.md
+      - Context Engineer: career/roles/context-engineer.md
+      - Post-Training Engineer: career/roles/post-training-engineer.md
+      - AI Coding Agent Engineer: career/roles/ai-coding-agent-engineer.md
       - Generative AI Engineer: career/roles/genai-engineer.md
       - LLM Engineer: career/roles/llm-engineer.md
       - RAG Engineer: career/roles/rag-engineer.md

@@ -106,6 +106,7 @@
         "genai"
       ],
       "Tracks": [
+        "Foundation",
         "A",
         "B"
       ],
@@ -757,6 +758,7 @@
         "genai"
       ],
       "Tracks": [
+        "Foundation",
         "D"
       ],
       "SitePath": "llms/reasoning-models.html",
@@ -1524,6 +1526,7 @@
         "genai-technique"
       ],
       "Tracks": [
+        "Foundation",
         "A"
       ],
       "SitePath": "techniques/structured-outputs.html",

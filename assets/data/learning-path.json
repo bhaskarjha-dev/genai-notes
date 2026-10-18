@@ -134,7 +134,7 @@
     },
     {
       "Id": "foundation-level-3",
-      "Title": "Level 3: Core GenAI Techniques (~25 hours)",
+      "Title": "Level 3: Core GenAI Techniques (~35 hours)",
       "Notes": [
         {
           "Path": "llms/llms-overview.md",
@@ -215,6 +215,36 @@
           "EstTime": "2h",
           "SitePath": "evaluation/evaluation-and-benchmarks.html",
           "MarkdownLink": "../evaluation/evaluation-and-benchmarks.md"
+        },
+        {
+          "Path": "llms/reasoning-models.md",
+          "Title": "Reasoning Models & Test-Time Compute",
+          "Label": "reasoning-models",
+          "Folder": "llms",
+          "Difficulty": "advanced",
+          "EstTime": "3h",
+          "SitePath": "llms/reasoning-models.html",
+          "MarkdownLink": "../llms/reasoning-models.md"
+        },
+        {
+          "Path": "agents/agentic-protocols.md",
+          "Title": "Agentic Protocols & Frameworks",
+          "Label": "agentic-protocols",
+          "Folder": "agents",
+          "Difficulty": "intermediate",
+          "EstTime": "4h",
+          "SitePath": "agents/agentic-protocols.html",
+          "MarkdownLink": "../agents/agentic-protocols.md"
+        },
+        {
+          "Path": "techniques/structured-outputs.md",
+          "Title": "Structured Outputs & Constrained Generation",
+          "Label": "structured-outputs",
+          "Folder": "techniques",
+          "Difficulty": "intermediate",
+          "EstTime": "3h",
+          "SitePath": "techniques/structured-outputs.html",
+          "MarkdownLink": "../techniques/structured-outputs.md"
         }
       ]
     }
