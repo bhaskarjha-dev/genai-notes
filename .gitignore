@@ -21,6 +21,7 @@ __pycache__/
 .tmp/
 .uv-cache/
 .cache/
+.wrangler/
 
 # Generated learning assets (regenerate via: pwsh scripts/generate_learning_assets.ps1)
 downloads/anki/*.tsv

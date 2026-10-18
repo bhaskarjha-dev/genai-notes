@@ -14,21 +14,21 @@
 
 ## 📑 Table of Contents
 
-- [🧠 GenAI Study Notes](#-genai-study-notes)
-  - [📑 Table of Contents](#-table-of-contents)
+- [🧠 GenAI Study Notes](#genai-study-notes)
+  - [📑 Table of Contents](#table-of-contents)
   - [What This Is](#what-this-is)
-  - [⚡ Quick Start](#-quick-start)
-  - [🗺️ How to Use](#️-how-to-use)
+  - [⚡ Quick Start](#quick-start)
+  - [🗺️ How to Use](#how-to-use)
     - [Path 1: Linear Study](#path-1-linear-study)
     - [Path 2: Role-Based Study](#path-2-role-based-study)
     - [Path 3: Topic Reference](#path-3-topic-reference)
     - [Path 4: Obsidian Vault](#path-4-obsidian-vault)
-  - [📚 What's Covered](#-whats-covered)
-  - [🛠️ Study Tools](#️-study-tools)
-  - [📝 Note Format](#-note-format)
+  - [📚 What's Covered](#whats-covered)
+  - [🛠️ Study Tools](#study-tools)
+  - [📝 Note Format](#note-format)
   - [Quality Notice](#quality-notice)
-  - [🤝 Contributing](#-contributing)
-  - [⚖️ License](#️-license)
+  - [🤝 Contributing](#contributing)
+  - [⚖️ License](#license)
 
 ---
 
