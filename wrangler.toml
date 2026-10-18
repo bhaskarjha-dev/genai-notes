@@ -1,3 +1,5 @@
 name = "genai-notes"
 compatibility_date = "2026-10-18"
-pages_build_output_dir = "site"
+
+[assets]
+directory = "./site"
